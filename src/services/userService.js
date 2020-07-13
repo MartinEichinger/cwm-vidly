@@ -1,5 +1,6 @@
-import { apiEndpointUser } from "./config.json";
 import http from "./httpService";
+
+const apiEndpointUser = "/users";
 
 function userUrl(id) {
   return `${apiEndpointUser}/${id}`;

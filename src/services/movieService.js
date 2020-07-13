@@ -1,6 +1,7 @@
-import { apiEndpointMovie } from "./config.json";
 import { getGenres } from "./genreService";
 import http from "./httpService";
+
+const apiEndpointMovie = "/movies";
 
 function movieUrl(id) {
   return `${apiEndpointMovie}/${id}`;
